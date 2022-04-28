@@ -1,0 +1,9 @@
+<%- include('partials/header') -%>
+    <h3 id="search1" class="text-center">Search Your Movie Here</h3>
+
+
+    <form action="/results" method="GET" class="justify-content-center d-flex">
+        <input type="text" name="search" class="form-control w-25" placeholder="Enter Movie Url Here">
+        <button class="ml-3 text-center btn btn-success">Search Movie</button>
+    </form>
+<%- include('partials/footer') -%>
